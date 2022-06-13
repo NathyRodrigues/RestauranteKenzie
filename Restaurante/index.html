@@ -15,97 +15,120 @@
 </head>
 <body>
     <header>
+<div class="container">
         <img src="./assets/img/logo-kenzie.png" alt="logo da kenzie academy">
         <h1>Restaurante</h1>
+    </div>
     </header>
-<main>
-    <section>
-        <ul>
 
-            <li>
+    <main class="container">
+    <section class="products">
+        <ul class="products-list">
+
+            <li class="product">
                 <img src="./assets/img/kenzie_burgao.png" alt="Kenzie Burgão">
                 <h3 class="title-1">Kenzie Burgão</h3>
-                <p class="text-caption">O hambúrguer do Dev Full Stack Kenzie, o mais completo da cidade!</p>
+                <p class="text-caption color-grey-3">O hambúrguer do Dev Full Stack Kenzie, o mais completo da cidade!</p>
+                <div class="footer-products">
                 <span class="title-2">R$28,00</span>
                 <button>
                     <img src="./assets/img/cart-icon.png" alt="ícone do carrinho">
                 </button>
+                </div>
             </li> 
 
 
-            <li>
+            <li class="product">
                 <img src="./assets/img/refrigerante.png" alt="Refrigerante">
                 <h3 class="title-1">Refrigerante</h3>
-                <p class="text-caption"> A melhor bebida do mundo, geladíssima e refrescante!</p>
-                <span class="title-2">R$7,50</span>
+                <p class="text-caption color-grey-3"> A melhor bebida do mundo, geladíssima e refrescante!</p>
+                <div class="footer-products">
+                <span class="title-2">R$27,50</span>
                 <button>
                     <img src="./assets/img/cart-icon.png" alt="ícone do carrinho">
                 </button>
+                </div>
             </li>
 
 
-            <li>
+            <li class="product">
                 <img src="./assets/img/kenzie_burguinho.png" alt="kenzie burguinho">
                 <h3 class="title-1">Kenzie Burguinho</h3>
-                <p class="text-caption"> Bacon, cheddar e muito sabor pra você!</p>
-                <span class="title-2">R$7,50</span>
+                <p class="text-caption color-grey-3"> Bacon, gema de ovo mole especial e muito sabor pra você!</p>
+                <div class="footer-products">
+                <span class="title-2">R$27,50</span>
                 <button>
                     <img src="./assets/img/cart-icon.png" alt="ícone do carrinho">
                 </button>
+                </div>
             </li>
 
 
-            <li>
+            <li class="product">
                 <img src="./assets/img/frango_frito.png" alt="frango frito">
                 <h3 class="title-1">Frango Frito</h3>
-                <p class="text-caption"> Frango crocante e empanado acompanhado de molho incrível da casa.</p>
+                <p class="text-caption color-grey-3"> Frango crocante e empanado acompanhado de molho incrível da casa.</p>
+                <div class="footer-products">
                 <span class="title-2">R$26,50</span>
                 <button>
                     <img src="./assets/img/cart-icon.png" alt="ícone do carrinho">
                 </button>
+                </div>
             </li>
             
 
-            <li>
+            <li class="product">
                 <img src="./assets/img/batata_frita.png">
                 <h3 class="title-1">Batata Frita</h3>
-                <p class="text-caption"> A batata mais sequinha da região, acompanha cheddar e bacon.</p>
+                <p class="text-caption color-grey-3"> A batata mais sequinha da região, acompanha cheddar e bacon.</p>
+                <div class="footer-products">
                 <span class="title-2">R$15,00</span>
                 <button>
                     <img src="./assets/img/cart-icon.png" alt="ícone do carrinho">
                 </button>
+                </div>
             </li>
 
 
-            <li>
+            <li class="product">
                 <img src="./assets/img/sanduiche_frango_frito.png" alt="sanduíche de frango frito">
                 <h3 class="title-1"> Sanduíche de Frango Frito</h3>
-                <p> Irresistível empanado para compor esse sanduíche com salada fresca e molho especial.</p>
+                <p class="text-caption color-grey-3"> Irresistível empanado com salada fresca e molho especial.</p>
+                <div class="footer-products">
                 <span class="title-2">R$23,50</span>
                 <button>
                     <img src="./assets/img/cart-icon.png" alt="ícone do carrinho">
                 </button>
+                </div>
             </li>
             </ul>
     </section>
 
     <aside>
-        <div>
-            <img src="./assets/img/cart-icon.png" alt="carrinho">
+        <div class="flex header-carrinho">
             <h4>Carrinho</h4>
-            </div>
-
-            <div>
-                <ul>
-                    <li>
-                        <img src="./assets/img/batata_frita.png" alt="batata frita">
-                        <h3 class="title-1">Batata Frita</h3>
-                        <img src="./assets/img/trash.png" alt="ícone de lixeira">
-                        <span class="title-2">R$15,00</span>
-                    </li>
-                </ul>
-            </div>
-
+        </div>
+     
+          <div class="carrinho">
+            <ul class="products-selected">
+              <li class="flex">
+                <div class="product-image">
+                  <img src="./assets/img/batata_frita.png" alt="batat frita"/>
+                </div>
+  
+                <div>
+                  <div class="flex">
+                    <h3 class="title-2 mini-descricao">Batata Frita</h3>
+                    <button class="trash-btn">
+                      <img src="./assets/img/trash.png" alt="icone lixeira"/>
+                    </button>
+                  </div>
+                  <div class="footer-cart">
+                    <p class="text-caption">R$ 15,00</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
     </aside>
 </main>
 </body>
