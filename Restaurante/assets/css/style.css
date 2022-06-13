@@ -88,7 +88,7 @@ h1 {
     height: 56px;
     width: 320px;
     border-radius: 12px 12px 0px 0px;
-    background-color:aquamarine;
+    background-color:rgb(54, 224, 168);
     color: #ffffff;
     margin-top: 20px;
     align-items: center;
@@ -134,4 +134,26 @@ h1 {
     display: flex;
     justify-content: flex-start;
     margin-top: 10px;
-  }
+}
+
+.totalizador {
+    height: 51.732418060302734px;
+    width: 312px;
+    background-color: #e9ecef;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+.btn-finalizar-pedido {
+    height: 48px;
+    width: 319px;
+    left: 1165px;
+    top: 658px;
+    border-radius: 32px;
+    padding: 15px, 20px, 15px, 20px;
+    background-color: #e4f7ef;
+    border: none;
+    cursor: pointer;
+}
